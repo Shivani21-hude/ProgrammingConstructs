@@ -17,6 +17,10 @@ namespace ProgrammingConstucts
 
             Console.WriteLine("\n==> To check whether the person is eligible or not for voting");
             statement.EligibleForVotes();
+
+            IfElseIfElseStatement.FindLargerNumber();
+
+            IfElseIfElseStatement.CheckEligibleForAdission();
         }
     }
 }
