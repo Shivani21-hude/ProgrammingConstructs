@@ -10,7 +10,7 @@ namespace ProgrammingConstucts
             {
 
             Console.WriteLine("\n Choose a number between following : \n 1) IF else statement problems \n 2) if, else if, else statement problems \n 3) " +
-                "Switch case problems");
+                "Switch case problems \n 4) Using For loop problems");
             int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -41,6 +41,13 @@ namespace ProgrammingConstucts
                         Console.WriteLine("\n *** Arithamtic operations ***");
                         SwitchCase.ArithmaticOperation();
                         break;
+
+                    case 4:
+                        UsingForLoop.PowerOf2();
+                        UsingForLoop.SumOfSquare();
+                        UsingForLoop.factorial();
+                        break;
+
 
                 }
 
