@@ -10,7 +10,7 @@ namespace ProgrammingConstucts
             {
 
             Console.WriteLine("\n Choose a number between following : \n 1) IF else statement problems \n 2) if, else if, else statement problems \n 3) " +
-                "Switch case problems \n 4) Using For loop problems");
+                "Switch case problems \n 4) Using For loop problems \n 5) Usinhg while loop");
             int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -48,7 +48,11 @@ namespace ProgrammingConstucts
                         UsingForLoop.factorial();
                         break;
 
-
+                    case 5:
+                        UsingWhileLoop.FlipCoin();
+                        UsingWhileLoop.ReverseWord();
+                        UsingWhileLoop.PrintNaturalNumbers();
+                        break;
                 }
 
             }
